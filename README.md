@@ -39,7 +39,30 @@ The website is designed to provide attendees and participants with all important
 ## Tech Scope
 
 - Frontend only (no backend integration)
+- React + Vite (JavaScript)
+- Tailwind CSS
+- shadcn-style UI components
 
 ## Goal
 
 To build an informative, modern, and accessible event website for Data Science Summit 2026.
+
+## Local Setup
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Start the local development server:
+
+```bash
+npm run dev
+```
+
+3. Build for production:
+
+```bash
+npm run build
+```

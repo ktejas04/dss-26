@@ -1,0 +1,26 @@
+[
+  {
+    "id": "siddharth-samant",
+    "name": "Siddharth Samant",
+    "organization": "Red Hat",
+    "role": "Speaker",
+    "description": "Industry practitioner sharing perspectives on open-source innovation and real-world data science workflows.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": "guest-speaker-1",
+    "name": "Guest Speaker",
+    "organization": "To Be Announced",
+    "role": "Speaker",
+    "description": "More speaker announcements coming soon.",
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": "guest-speaker-2",
+    "name": "Guest Speaker",
+    "organization": "To Be Announced",
+    "role": "Speaker",
+    "description": "More speaker announcements coming soon.",
+    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=500&q=80"
+  }
+]

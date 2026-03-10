@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 224 36% 7%;
+  --foreground: 210 40% 96%;
+  --card: 224 36% 9%;
+  --card-foreground: 210 40% 96%;
+  --popover: 224 36% 9%;
+  --popover-foreground: 210 40% 96%;
+  --primary: 257 90% 66%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 224 23% 14%;
+  --secondary-foreground: 210 40% 96%;
+  --muted: 224 23% 14%;
+  --muted-foreground: 215 20% 70%;
+  --accent: 287 82% 67%;
+  --accent-foreground: 210 40% 96%;
+  --border: 224 23% 20%;
+  --input: 224 23% 20%;
+  --ring: 257 90% 66%;
+  --accent-cyan: 190 92% 60%;
+  --gradient-purple: 257 90% 66%;
+  --gradient-magenta: 316 72% 58%;
+}
+
+* {
+  @apply border-border;
+}
+
+body {
+  @apply bg-background text-foreground font-sans antialiased;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-[hsl(var(--gradient-purple))] to-[hsl(var(--gradient-magenta))] bg-clip-text text-transparent;
+}
+
+.gradient-bg {
+  @apply bg-gradient-to-r from-[hsl(var(--gradient-purple))] to-[hsl(var(--gradient-magenta))];
+}
+
+.gradient-border {
+  @apply border border-white/10 bg-white/[0.02] backdrop-blur-sm;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:-translate-y-0.5 hover:border-white/20;
+}
+
+.orb-1,
+.orb-2,
+.orb-3 {
+  animation: float 8s ease-in-out infinite;
+}
+
+.orb-2 {
+  animation-delay: 1.5s;
+}
+
+.orb-3 {
+  animation-delay: 3s;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-18px);
+  }
+}

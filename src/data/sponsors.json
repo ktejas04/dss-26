@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Red Hat",
+    "url": "https://www.redhat.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg"
+  },
+  {
+    "name": "Data Partner",
+    "url": "https://example.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+  },
+  {
+    "name": "Community Partner",
+    "url": "https://example.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
+  }
+]

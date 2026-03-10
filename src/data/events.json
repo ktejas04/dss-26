@@ -1,0 +1,70 @@
+{
+  "days": [
+    {
+      "day": "Day 1",
+      "date": "12 Sep 2026",
+      "events": [
+        {
+          "id": "d1-e1",
+          "time": "10:00 AM",
+          "title": "Opening Keynote",
+          "venue": "Main Auditorium",
+          "description": "Kickoff session introducing the summit theme and opportunities.",
+          "registerUrl": "https://unstop.com"
+        },
+        {
+          "id": "d1-e2",
+          "time": "02:00 PM",
+          "title": "Speaker Session: Industry Insights",
+          "venue": "Seminar Hall A",
+          "description": "A practical session on solving real-world challenges with data science.",
+          "registerUrl": "https://unstop.com"
+        }
+      ]
+    },
+    {
+      "day": "Day 2",
+      "date": "13 Sep 2026",
+      "events": [
+        {
+          "id": "d2-e1",
+          "time": "11:00 AM",
+          "title": "Hands-on Workshop",
+          "venue": "Lab Complex",
+          "description": "Interactive workshop focused on model-building and deployment basics.",
+          "registerUrl": "https://unstop.com"
+        },
+        {
+          "id": "d2-e2",
+          "time": "03:30 PM",
+          "title": "Panel Discussion",
+          "venue": "Seminar Hall B",
+          "description": "Experts discuss the evolving data and AI ecosystem.",
+          "registerUrl": "https://unstop.com"
+        }
+      ]
+    },
+    {
+      "day": "Day 3",
+      "date": "14 Sep 2026",
+      "events": [
+        {
+          "id": "d3-e1",
+          "time": "10:30 AM",
+          "title": "Competition Finals",
+          "venue": "Innovation Center",
+          "description": "Final presentations from top teams and judges' evaluation.",
+          "registerUrl": "https://unstop.com"
+        },
+        {
+          "id": "d3-e2",
+          "time": "04:00 PM",
+          "title": "Closing Ceremony",
+          "venue": "Main Auditorium",
+          "description": "Awards, recognitions, and summit closing notes.",
+          "registerUrl": "https://unstop.com"
+        }
+      ]
+    }
+  ]
+}
